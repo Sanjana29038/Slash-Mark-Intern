@@ -1,0 +1,125 @@
+Sure, here's a template for a README.md file for your project on GitHub:Sure, here's a template for a README.md file for your project on GitHub:
+
+```markdown
+# Node.js Encryption/Decryption Module
+
+This is a Node.js module for encryption and decryption using AES-256-CBC algorithm. It provides functions to encrypt and decrypt text using a specified encryption key.
+
+## Features
+
+- Encrypt plaintext using AES-256-CBC algorithm
+- Decrypt ciphertext using AES-256-CBC algorithm
+- Supports setting a custom encryption key
+
+## Installation
+
+You can install this module via npm:
+
+```bash
+npm install node-encryption-module
+```
+
+## Usage
+
+```javascript
+const { encrypt, decrypt } = require('node-encryption-module');
+
+// Set the encryption key (replace with your key)
+process.env.ENCRYPTION_KEY = "0123456789abcdef0123456789abcdef";
+
+// Example text to encrypt
+const plaintext = "Hello, World!";
+
+// Encrypt the text
+const encryptedText = encrypt(plaintext);
+
+console.log("Encrypted:", encryptedText);
+
+// Decrypt the text
+const decryptedText = decrypt(encryptedText);
+
+console.log("Decrypted:", decryptedText);
+```
+
+## API
+
+### `encrypt(text: string): string`
+
+Encrypts the given plaintext using AES-256-CBC algorithm and returns the encrypted ciphertext.
+
+- `text`: The plaintext to encrypt.
+
+### `decrypt(text: string): string`
+
+Decrypts the given ciphertext using AES-256-CBC algorithm and returns the decrypted plaintext.
+
+- `text`: The ciphertext to decrypt.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can use this template as a starting point for your README.md file. Replace placeholders like `node-encryption-module` with your actual module name and update any other details specific to your project. Additionally, consider adding more information about the project, such as installation instructions, usage examples, and any additional features or configurations.
+
+```markdown
+# Node.js Encryption/Decryption Module
+
+This is a Node.js module for encryption and decryption using AES-256-CBC algorithm. It provides functions to encrypt and decrypt text using a specified encryption key.
+
+## Features
+
+- Encrypt plaintext using AES-256-CBC algorithm
+- Decrypt ciphertext using AES-256-CBC algorithm
+- Supports setting a custom encryption key
+
+## Installation
+
+You can install this module via npm:
+
+```bash
+npm install node-encryption-module
+```
+
+## Usage
+
+```javascript
+const { encrypt, decrypt } = require('node-encryption-module');
+
+// Set the encryption key (replace with your key)
+process.env.ENCRYPTION_KEY = "0123456789abcdef0123456789abcdef";
+
+// Example text to encrypt
+const plaintext = "Hello, World!";
+
+// Encrypt the text
+const encryptedText = encrypt(plaintext);
+
+console.log("Encrypted:", encryptedText);
+
+// Decrypt the text
+const decryptedText = decrypt(encryptedText);
+
+console.log("Decrypted:", decryptedText);
+```
+
+## API
+
+### `encrypt(text: string): string`
+
+Encrypts the given plaintext using AES-256-CBC algorithm and returns the encrypted ciphertext.
+
+- `text`: The plaintext to encrypt.
+
+### `decrypt(text: string): string`
+
+Decrypts the given ciphertext using AES-256-CBC algorithm and returns the decrypted plaintext.
+
+- `text`: The ciphertext to decrypt.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can use this template as a starting point for your README.md file. Replace placeholders like `node-encryption-module` with your actual module name and update any other details specific to your project. Additionally, consider adding more information about the project, such as installation instructions, usage examples, and any additional features or configurations.
