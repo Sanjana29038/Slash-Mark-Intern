@@ -1,6 +1,4 @@
-Sure, here's a basic README file for a hypothetical keylogger project implemented in JavaScript for capturing keystrokes within a web browser environment:
 
----
 Web Keylogger
 
 Web Keylogger is a simple JavaScript project that demonstrates how to capture keystrokes within a web browser environment using event listeners.
