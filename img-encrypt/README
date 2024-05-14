@@ -1,0 +1,79 @@
+Sure, here's a README template you can use for your GitHub repository:
+
+```
+# Image Encryption Project
+
+This project demonstrates how to encrypt and decrypt images using JavaScript and the Web Crypto API.
+
+## Overview
+
+Image encryption is an essential technique for securing image data. This project provides a simple implementation of image encryption and decryption using the AES encryption algorithm and the Web Crypto API.
+
+## Features
+
+- Select an image file for encryption
+- Encrypt the selected image using AES encryption
+- Decrypt the encrypted image
+- Display the original, encrypted, and decrypted images
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/your-username/image-encryption.git
+   ```
+
+2. Open the `index.html` file in a web browser.
+
+3. Use the provided user interface to select an image file and perform encryption and decryption.
+
+## Technologies Used
+
+- JavaScript
+- HTML
+- Web Crypto API
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+   ```
+   git checkout -b feature/my-feature
+   ```
+
+3. Make your changes and commit them:
+
+   ```
+   git commit -m 'Add my feature'
+   ```
+
+4. Push to the branch:
+
+   ```
+   git push origin feature/my-feature
+   ```
+
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- This project was inspired by the need to demonstrate image encryption techniques for educational purposes.
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact me at your-email@example.com.
+
+```
+
+Make sure to replace placeholders like `your-username`, `your-email@example.com`, and `feature/my-feature` with appropriate values. Additionally, if you have specific installation instructions or usage examples, you can include them in the README as well.
